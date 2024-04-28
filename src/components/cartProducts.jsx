@@ -20,7 +20,7 @@ const CartProduct = () => {
     if (sku) {
       axios
         .post(
-          "http://greenleap.ap-south-1.elasticbeanstalk.com/carts/addAnonCart",
+          "https://greenleap.ap-south-1.elasticbeanstalk.com/carts/addAnonCart",
           {
             sku: sku,
             quantity: 1,
