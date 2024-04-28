@@ -25,7 +25,7 @@ const Payment = () => {
         console.log(anonymousId)
         axios
           .post(
-            "http://greenleap.ap-south-1.elasticbeanstalk.com/shippingAddress/addAddress",
+            "https://greenleap.ap-south-1.elasticbeanstalk.com/shippingAddress/addAddress",
             shippingAddress,
             {
               params: {
